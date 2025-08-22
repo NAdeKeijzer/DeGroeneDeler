@@ -1,0 +1,13 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+  overflow-x: auto;
+  overflow-y: scroll;
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+}
