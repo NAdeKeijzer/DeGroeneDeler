@@ -28,6 +28,23 @@ Daarnaast zijn er de volgende conventies:
 - `/app/globals.css` is de globale styling. Hierin proberen we zoveel mogelijk met CSS-variabelen te werken. Overrides op bootstrap komen hier ook in.
 - `[component].module.css` is de styling specifiek voor een component. Deze is scoped op de component.
 
+## Testing
+
+Voor E2E-testen gebruiken we Playwright. Je kunt deze draaien met
+
+```bash
+npx playwright test
+```
+
+Je hebt echter nog een runner nodig, deze kun je installeren met
+
+```bash
+# met npx (minder transparant):
+sudo npx playwright install-deps
+# of met apt-get:
+sudo apt-get install libavif16
+```
+
 ## Handige links
 
 De volgende externe links zijn handig om aan de slag te gaan:
